@@ -140,7 +140,8 @@
     width: 330px;
 }
 @media (min-width: 641px) and (max-width: 1200px) and (orientation: portrait) {
-    .trend-cards {
+    .trend-cards,
+    .product-cards{
         grid-template-columns: repeat(2, 1fr);
     }
 }
