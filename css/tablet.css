@@ -78,6 +78,9 @@
 .products-content {
     min-height: 240px;
 }
+.products {
+    max-width: 698px;
+}
 .product-cards {
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
