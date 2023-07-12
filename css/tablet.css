@@ -96,3 +96,17 @@
         margin: 20px;
     }
     }
+@media (min-width: 641px) and (max-width: 1200px) and (orientation: portrait) {
+    .category {
+        flex-wrap: wrap;
+    }
+    .product-title {
+        font-size: 20px;
+    }
+    
+    .trend-cards,
+    .product-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
