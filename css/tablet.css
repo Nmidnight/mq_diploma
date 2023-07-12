@@ -87,9 +87,6 @@
     .product-cards {
         grid-template-columns: repeat(1, 1fr);
     }
-    .content {
-        flex-wrap: wrap;
-    }
     .main-news,
     .aside-content {
         max-width: 620px;
