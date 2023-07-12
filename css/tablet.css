@@ -23,6 +23,9 @@
     font-size: 2.5rem;
     padding: 13%;
 }
+ .category {
+      flex-wrap: wrap;
+ }
 .category-title {
     font-size: 1.13rem;
 }
